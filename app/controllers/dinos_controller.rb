@@ -20,8 +20,8 @@ class DinosController < ApplicationController
           name: "Spinosaurus",
           tag: "The Hunchback of Pangea",
           period: "Cretaceous",
-          description: "meaning thorn reptile, this dinosaur was thought to be more ferocious and predatory than the T-rex!",
-          image_name: asset_path('spinosaurus.png')
+          description: "The name Spinosaurus means ‘spine lizard’. The Spinosaurus was larger than the Tyrannosaurus Rex and may have been the largest carnivorous (meat eating) dinosaur ever. Studies estimate that it was around 15 metres (49 feet) in length and weighed anywhere between 7 to 20 tons. The Spinosaurus featured distinctive spines which grew over 1.5 metres (5 feet) long. While the Spinosaurus usually walked on two legs, studies suggest that it may have occasionally crouched on all four.",
+          image_name: asset_path('spinosaurus.jpg')
         },
         {
           name: "Carnufex",
@@ -33,21 +33,21 @@ class DinosController < ApplicationController
         {
           name: "Brontosaurus",
           tag: "The Thunder Lizard!",
-          period: "late Jurassic",
+          period: "Late Jurassic",
           description: "Originally named by its discoverer Othniel Charles Marsh in 1879, Brontosaurus had long been considered a junior synonym of Apatosaurus; its original species Brontosaurus excelsus having been reclassified as A. excelsus in 1903. However, an extensive study published in 2015 by a joint research team of England and Portugal concluded that Brontosaurus was a valid genus of sauropod distinct from Apatosaurus.[1][2][3] Nevertheless, not all paleontologists agree with this splitting.",
           image_name: asset_path('brontosaurus.png'),
         },
         {
           name: "Tyrannosaurus Rex",
           tag: "The Tyrant Lizard!",
-          period: "late Jurassic",
+          period: "Late Jurassic",
           description: "The species Tyrannosaurus rex (rex meaning king in Latin), commonly abbreviated to T. rex, is one of the most well-represented of the large theropods. Tyrannosaurus lived throughout what is now western North America, on what was then an island continent known as Laramidia. Tyrannosaurus had a much wider range than other tyrannosaurids. Fossils are found in a variety of rock formations dating to the Maastrichtian age of the upper Cretaceous Period, 68 to 66 million years ago. It was the last known member of the tyrannosaurids, and among the last non-avian dinosaurs to exist before the Cretaceous–Paleogene extinction event.",
           image_name: asset_path('tyrannosaurus.png'),
         },
         {
           name: "Stegosaurus",
           tag: "The Roof Lizard!",
-          period: "late Jurassic",
+          period: "Late Jurassic",
           description: "A large, heavily built, herbivorous quadruped, Stegosaurus had a distinctive and unusual posture, with a heavily rounded back, short fore limbs, head held low to the ground, and a stiffened tail held high in the air. Its array of plates and spikes has been the subject of much speculation. The spikes were most likely used for defense, while the plates have also been proposed as a defensive mechanism, as well as having display and thermoregulatory functions. Stegosaurus had a relatively low brain-to-body mass ratio. It had a short neck and small head, meaning it most likely ate low-lying bushes and shrubs. It was the largest known of all the stegosaurians (bigger than genera such as Kentrosaurus and Huayangosaurus) and, although roughly bus-sized, it nonetheless shared many anatomical features (including the tail spines and plates) with the other stegosaurian genera.",
           image_name: asset_path('stegosaurus.png'),
         },
@@ -106,6 +106,34 @@ class DinosController < ApplicationController
           period: "Cretaceous",
           description: "The name Deinonychus means ‘terrible claw’, this refers to the large, hooked claw found on the hind feet. Deinonychus lived in the early Cretaceous Period, around 110 million years ago. Deinonychus is part of the same family of dinosaurs as the Velociraptor. Deinonychus reached around 3.4 metres (11 feet) in length and 73 kg (170 lb) in weight. Deinonychus had around 60 teeth and studies suggest that it had about the same bite force as an alligator.",
           image_name: asset_path('deinonychus.png'),
+        },
+        {
+          name: "Brachiosaurus",
+          tag: "The Reacher",
+          period: "Jurassic",
+          description: "The name Brachiosaurus comes from Greek words meaning ‘arm’ and ‘lizard’. The name refers to the interesting nature of Brachiosaurus legs which were longer at the front than the back. The Brachiosaurus had a long neck, a small head and a relatively short tail compared to other Sauropods. This herbivore walked on all four legs. The length of Brachiosaurus is believed to have been around 26 metres (85 feet).",
+          image_name: asset_path('brachiosaurus.jpg'),
+        },
+        {
+          name: "Carnotaurus",
+          tag: "The Meat Eating Bull!",
+          period: "Cretaceous",
+          description: "The name Carnotaurus means ‘meat eating bull’….eek! The name refers to the horns found above its eyes, which are similar to bull horns. Carnotaurus lived around 66 million years ago, before the mass extinction event that occurred at the end of the Cretaceous Period. Unusually for a dinosaur, Carnotaurus eyes faced forward. Carnotaurus had very small arms and fingers that did not move.",
+          image_name: asset_path('carnotaurus.png'),
+        },
+        {
+          name: "Iguanodon",
+          tag: "Iguana Chomp!",
+          period: "Cretaceous",
+          description: "The name Iguanodon means ‘Iguana tooth’. This herbivore could easily shift between moving on two limbs or four. Scientists estimate the Iguanodon’s maximum speed would have been around 24kph (15mph). The Iguanodon weighed around 3.5 tons and reached around 10 metres (33 feet) in length. Along with Tyrannosaurus rex and Stegosaurus, Iguanodon was one of three dinosaurs that inspired the appearance of Godzilla.",
+          image_name: asset_path('iguanodon.png'),
+        },
+        {
+          name: "Parasaurolophus",
+          tag: "Bone Head!",
+          period: "Cretaceous",
+          description: "The Parasaurolophus features a crest on its head that forms a long curved pipe pointing backwards from the skull. There has been much debate about the functions of the crest but these days most scientists agree that it helped Parasaurolophus identify male and females, increased hearing ability (acoustic resonance) and also helped regulate body temperature (thermoregulation). This herbivore could walk on either two legs or all four.",
+          image_name: asset_path('parasaurolophus.jpg'),
         },
       ].sort_by {|hash| hash[:name].upcase }
     }
