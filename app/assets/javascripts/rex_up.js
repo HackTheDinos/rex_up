@@ -1,0 +1,1 @@
+RexUp = angular.module('RexUp', []);

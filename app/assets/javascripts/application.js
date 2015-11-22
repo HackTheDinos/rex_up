@@ -11,5 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require angular
 //= require jquery_ujs
+//= require rex_up
 //= require_tree .
