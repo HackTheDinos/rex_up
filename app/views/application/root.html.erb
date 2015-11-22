@@ -1,9 +1,9 @@
 <div ng-controller="dinosController">
-  <div ng-repeat="dino in dinos">
+  <div ng-repeat="dino in dinos" class='dino'>
     <h1>{{ dino.name }}</h1>
     <h2>{{ dino.tag }}</h2>
     <h3>Period: {{ dino.period }}</h3>
-    <p>Description: {{ dino.description }}</p>
+    <p>{{ dino.description }}</p>
     <img ng-src="{{ dino.image_name }}"></img>
   </div>
 </div>

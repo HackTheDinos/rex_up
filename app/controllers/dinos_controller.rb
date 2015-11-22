@@ -64,7 +64,7 @@ class DinosController < ApplicationController
           description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile. The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago,[2] though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa.  It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
           image_name: asset_path('archelon.png'),
         }
-      ]
+      ].sort_by {|hash| hash[:name].upcase }
     }
   end
 
