@@ -34,7 +34,7 @@ class DinosController < ApplicationController
           name: "Brontosaurus",
           tag: "The Thunder Lizard!",
           period: "Late Jurassic",
-          description: "Originally named by its discoverer Othniel Charles Marsh in 1879, Brontosaurus had long been considered a junior synonym of Apatosaurus; its original species Brontosaurus excelsus having been reclassified as A. excelsus in 1903. However, an extensive study published in 2015 by a joint research team of England and Portugal concluded that Brontosaurus was a valid genus of sauropod distinct from Apatosaurus.[1][2][3] Nevertheless, not all paleontologists agree with this splitting.",
+          description: "Originally named by its discoverer Othniel Charles Marsh in 1879, Brontosaurus had long been considered a junior synonym of Apatosaurus; its original species Brontosaurus excelsus having been reclassified as A. excelsus in 1903. However, an extensive study published in 2015 by a joint research team of England and Portugal concluded that Brontosaurus was a valid genus of sauropod distinct from Apatosaurus. Nevertheless, not all paleontologists agree with this splitting.",
           image_name: asset_path('brontosaurus.png'),
         },
         {
@@ -55,14 +55,14 @@ class DinosController < ApplicationController
           name: "Pterodactyl",
           tag: "The Winged Finger!",
           period: "late Jurassic",
-          description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile.  The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago,[2] though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa. It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
+          description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile.  The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago, though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa. It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
           image_name: asset_path('pterodactyl.png'),
         },
         {
           name: "Archelon",
           tag: "The Ruling Turtle!",
           period: "Late Cretaceous",
-          description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile. The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago,[2] though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa.  It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
+          description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile. The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago, though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa.  It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
           image_name: asset_path('archelon.png'),
         },
         {
