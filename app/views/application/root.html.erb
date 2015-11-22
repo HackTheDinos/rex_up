@@ -5,10 +5,10 @@
     </a>
     <div class='dino col-sm-6 col-xs-2'>
       <h1>{{ dino.name }}</h1>
+      <img ng-src="{{ dino.image_name }}"></img>
       <h2>{{ dino.tag }}</h2>
       <h3>Period: {{ dino.period }}</h3>
       <p>{{ dino.description }}</p>
-      <img ng-src="{{ dino.image_name }}"></img>
     </div>
     <a ng-click="nextDino()" class='dino-nav dino-nav-right col-sm-3 col-xs-1'>
       &gt;
