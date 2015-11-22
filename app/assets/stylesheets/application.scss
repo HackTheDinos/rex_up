@@ -18,6 +18,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.dino {
-  text-align: center;
+.container, .container-fluid {
+  max-width: 900px;
+
+  .dino {
+    text-align: center;
+
+    img {
+      max-width: 600px;
+    }
+  }
+
+  .dino-nav {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 200px;
+    text-decoration: none;
+
+    &.dino-nav-left {
+      text-align: right;
+    }
+
+    &.dino-nav-right {
+      text-align: left;
+    }
+  }
 }
