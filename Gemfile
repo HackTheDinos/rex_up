@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 gem 'angular-rails'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'pg'
 gem 'rails', '4.2.3'
