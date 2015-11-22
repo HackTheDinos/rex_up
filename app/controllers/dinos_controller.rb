@@ -11,14 +11,14 @@ class DinosController < ApplicationController
       dinosaurs: [
         {
           name: "Allosaurus",
-          tag: "Formidable carnivorous dinosaurs!",
+          tag: "Poor Man's T-Rex",
           period: "Late Jurassic",
           description: "Allosaurus was the largest of the carnivorous dinosaurs that lived in the late Jurassic period. This was a huge bipedal predator whose length could have reached over 12 m. Its weight ranged from one to four tons. Relative to the large and powerful hindlimbs, its three-fingered forelimbs were small, and the body was balanced by a long by a long and heavily muscled tail. Allosaurus lived in prehistoric forests, along rivers. Its remains have been discovered in Europe, Africa, and North America. As with most dinosaurs, its skull was full of cavities and comprised of narrow strips of bone, making the head highly flexible and agile, able to swallow huge chunks of meat. Its worn out teeth were falling out to be replaced by the growth of new ones.",
           image_name: asset_path('allosaurus.jpg')
         },
         {
           name: "Spinosaurus",
-          tag: "The largest theropod thorn reptile of all time!",
+          tag: "The Hunchback of Pangea",
           period: "Cretaceous",
           description: "meaning thorn reptile, this dinosaur was thought to be more ferocious and predatory than the T-rex!",
           image_name: asset_path('spinosaurus.png')
@@ -26,6 +26,7 @@ class DinosController < ApplicationController
         {
           name: "Carnufex",
           tag: "The Butcher!",
+          period: "Mesozoic",
           description: "This dinosaur was recently discovered in 2015. Since Carnufex is known from most regions of the skeleton, a lot is known about the animal. The species measured approximately 3 metres (10 ft) in length, though it may have grown larger since the holotype specimen was an immature individual. The skull of Carnufex is notable as it bridges a gap in morphology in early crocodylomorphs. There are also rough areas at the top of the skull, suggesting that the taxon possessed some form of decorative display. Its snout was long and narrow and possessed teeth which were longer and more serrated at the front of the mouth than the back.",
           image_name: asset_path('carnufex.png'),
         },
@@ -63,7 +64,14 @@ class DinosController < ApplicationController
           period: "Late Cretaceous",
           description: "It is currently thought to contain only a single species, Pterodactylus antiquus, the first pterosaur species to be named and identified as a flying reptile. The fossil remains of this species have been found primarily in the Solnhofen limestone of Bavaria, Germany, dated to the late Jurassic Period (early Tithonian), about 150.8–148.5 million years ago,[2] though more fragmentary remains have been tentatively identified from elsewhere in Europe and in Africa.  It was a carnivore and probably preyed upon fish and other small animals. Like all pterosaurs, Pterodactylus had wings formed by a skin and muscle membrane stretching from its elongated fourth finger to its hind limbs. It was supported internally by collagen fibres and externally by keratinous ridges.",
           image_name: asset_path('archelon.png'),
-        }
+        },
+        {
+          name: "Triceratops",
+          tag: "The Hat Trick!",
+          period: "Cretaceous",
+          description: "The name ‘Triceratops’ comes from the Greek language, with ‘tri’ meaning three and ‘keratops’ meaning horned face. The Triceratops was a plant eating (herbivore) dinosaur. Triceratops had anywhere between 400 and 800 teeth, although only a small percentage of these were in use at any one time as they were constantly replaced throughout its lifetime. It needed its three horns to try and protect itself from the Tyrannosaurus Rex which lived during the same time period.",
+          image_name: asset_path('triceratops.jpg'),
+        },
       ].sort_by {|hash| hash[:name].upcase }
     }
   end
