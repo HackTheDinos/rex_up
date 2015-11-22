@@ -1,3 +1,5 @@
 RexUp.controller('dinosController', ['$scope', '$http', function ($scope, $http) {
-  $scope.message = 'hello world'
+  $http.get('dinos').success(function (data) {
+    $scope.dinos = data.dinosaurs;
+  });
 }]);
