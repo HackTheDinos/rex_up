@@ -72,6 +72,41 @@ class DinosController < ApplicationController
           description: "The name ‘Triceratops’ comes from the Greek language, with ‘tri’ meaning three and ‘keratops’ meaning horned face. The Triceratops was a plant eating (herbivore) dinosaur. Triceratops had anywhere between 400 and 800 teeth, although only a small percentage of these were in use at any one time as they were constantly replaced throughout its lifetime. It needed its three horns to try and protect itself from the Tyrannosaurus Rex which lived during the same time period.",
           image_name: asset_path('triceratops.jpg'),
         },
+        {
+          name: "Ankylosaurus",
+          tag: "The Old Ball and Chain!",
+          period: "Cretaceous",
+          description: "Ankylosaurus were herbivores and had small teeth relative to their body size. The signature feature of Ankylosaurus was its body armor. Huge plates of bone were embedded into the skin which helped protect the Ankylosaurus against attackers. Similar body armor is found on a crocodile or armadillo. The Ankylosaurus had a massive tail club that it could use to generate a large amount of force, potentially breaking the bones of another dinosaur while defending itself. The Ankylosaurus was a large dinosaur. Scientists estimate it reached a length of around 9 metres (30 feet) and a weight of around 6000 kg (13000 lb).",
+          image_name: asset_path('ankylosaurus.png'),
+        },
+        {
+          name: "Velociraptor",
+          tag: "The Philosoraptor",
+          period: "Cretaceous",
+          description: "The Velociraptor played a large role in the Jurassic Park movies but was often shown inaccurately. Rather than being a larger, human sized dinosaur, the Velociraptor was around the size of a Turkey. It is also believed to have had feathers that were not shown in the movie portrayal. The carnivorous Velociraptor is thought to have killed its prey with sickle shaped claws on its rear feet. A fully grown Velociraptor could grow up to 2m (6.6ft) in length, 0.5m (1.6ft) in height at the hip and weigh up to 15kg (33lb).",
+          image_name: asset_path('velociraptor.png'),
+        },
+        {
+          name: "Sauropod",
+          tag: "Titans of the Dinosaurs",
+          period: "Triassic to Jurassic",
+          description: "The biggest dinosaur ever is believed to be a Sauropod called Amphicoelias. Sauropods first appeared on the scene in the Triassic Period (around 200 million years ago) and became quite common late in the Jurassic Period (around 150 million years ago). This gigantic dinosaur could have reached as long 60 metres (200 feet) in length and weighed up to 120 tons! Unfortunately for the Titanosaurs, they were the last of the great Sauropods before the massive extinction event which occurred around 65 million years ago.",
+          image_name: asset_path('sauropod.jpg'),
+        },
+        {
+          name: "Diplodocus",
+          tag: "Party Rockin' Dinosaur!",
+          period: "Jurassic",
+          description: "The name Diplodocus comes from the Greek language and means ‘double beam’, this refers to strangely shaped bones found in the Diplodocus tail. This herbivore lived in an area that is now western North America at the end of the Jurassic Period, around 150 million years ago. Although longer dinosaurs have since been discovered, Diplodocus was thought to be the longest for many years. Research suggests the Diplodocus could have been as long as 35m (115ft) and around 10 to 15 tons in weight.",
+          image_name: asset_path('diplodocus.jpg'),
+        },
+        {
+          name: "Deinonychus",
+          tag: "Terrible Claw!",
+          period: "Cretaceous",
+          description: "The name Deinonychus means ‘terrible claw’, this refers to the large, hooked claw found on the hind feet. Deinonychus lived in the early Cretaceous Period, around 110 million years ago. Deinonychus is part of the same family of dinosaurs as the Velociraptor. Deinonychus reached around 3.4 metres (11 feet) in length and 73 kg (170 lb) in weight. Deinonychus had around 60 teeth and studies suggest that it had about the same bite force as an alligator.",
+          image_name: asset_path('deinonychus.png'),
+        },
       ].sort_by {|hash| hash[:name].upcase }
     }
   end
